@@ -4,6 +4,7 @@ import {useState} from 'react';
 import AddUser from "./AddUser";
 import {Routes  ,Route} from 'react-router-dom'
 import AllUsers from "./AllUsers";
+import EditUser from "./EditUser";
 const  App = () => {
   const [toggle , setToggle] =useState(false);
   const openClose = () => {
@@ -17,6 +18,7 @@ const  App = () => {
   
     <Route path={'/adduser'} element={<AddUser/>}/>
     <Route path="/allusers" element={<AllUsers/>}/>
+    <Route path='/edit/:id' element={<EditUser/>}/>
   </Routes>
 
     </>);

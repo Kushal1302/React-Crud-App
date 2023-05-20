@@ -1,46 +1,18 @@
 {
   "users": [
     {
-      "name": "Kushal",
-      "username": "kk123",
-      "email": "kk@gmial.com",
-      "phone": "966",
-      "id": 1
-    },
-    {
-      "name": "Kushal malviya",
-      "username": "123",
-      "email": "123",
-      "phone": "123",
-      "id": 2
-    },
-    {
-      "name": "Kushal malviya",
-      "username": "123",
-      "email": "123",
-      "phone": "123",
+      "name": "hello",
+      "username": "admin",
+      "email": "don@gmail.com",
+      "phone": "27894157,27896521",
       "id": 3
     },
     {
-      "name": "Kushal malviya",
-      "username": "123",
-      "email": "123",
-      "phone": "123",
-      "id": 4
-    },
-    {
-      "name": "hello",
+      "name": "",
       "username": "",
       "email": "",
       "phone": "",
-      "id": 5
-    },
-    {
-      "name": "Pawan joshi",
-      "username": "admin",
-      "email": "kushal@gmail.com",
-      "phone": "2789415727896521",
-      "id": 6
+      "id": 4
     }
   ]
 }

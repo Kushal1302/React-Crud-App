@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Kushal",
+      "username": "kk123",
+      "email": "kk@gmial.com",
+      "phone": "966",
+      "id": 1
+    },
+    {
+      "name": "Kushal malviya",
+      "username": "123",
+      "email": "123",
+      "phone": "123",
+      "id": 2
+    },
+    {
+      "name": "Kushal malviya",
+      "username": "123",
+      "email": "123",
+      "phone": "123",
+      "id": 3
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 
 import {Drawer } from '@mui/material';
-import ListItem from '@mui/material/ListItem';
+// import ListItem from '@mui/material/ListItem';
 import AddIcon from '@mui/icons-material/Add';
 import FormatAlignJustifyIcon from '@mui/icons-material/FormatAlignJustify';
+import { NavLink } from 'react-router-dom';
 const SideBar = (props) => {
    
     return (<>
@@ -19,19 +20,22 @@ const SideBar = (props) => {
             height:'calc(100vh - 64px)',
             borderRight:'none',
             padding:'10px 0 0 10px',
-            '& > li':{
+            '& > a':{
                 fontSize:'20px',
                 cursor:'pointer',
                 fontWeight:"70",
-                '& > svg':{
-                    padding:'0 5px 0 0'
-                }
+                textDecoration:'none',
+                listStyle:'none',
+                color:'black',
+                padding:'10px 0 0 10px',
+                
+               
             }
             }
             
         }} >
-            <ListItem> <AddIcon/>Add Users</ListItem>
-            <ListItem><FormatAlignJustifyIcon/>All Users</ListItem>
+            <NavLink to={'/adduser'}> <AddIcon/>Add Users</NavLink>
+            <NavLink to={'/allusers'}><FormatAlignJustifyIcon/>All Users</NavLink>
                 
         </Drawer>
     </>)

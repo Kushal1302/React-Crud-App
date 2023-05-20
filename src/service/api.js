@@ -7,3 +7,11 @@ export const addUser = async (data) => {
     console.log("Error comes while adding user" , error.message)
    }
 }
+export const getUsers = async () => {
+    try {
+       return  await axios.get(API_URL)
+    } catch (error) {
+        console.log("Error comes while calling user" , error.message)
+    }
+
+}
